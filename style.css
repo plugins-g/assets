@@ -160,6 +160,7 @@ body {
 
 a {
     cursor: pointer;
+    font-weight: 500 !important;
 }
 
 
