@@ -1984,7 +1984,7 @@ a.btn.btn-success {
 .main-timeline .timeline-content{
     color: #999;
     background: #fff;
-    padding: 25px 75px 18px 0;
+    padding: 25px 60px 18px 0;
     box-shadow: -1px 4px 22px -9px #bbcbd8;
     display: block;
     position: relative;
@@ -2027,9 +2027,9 @@ a.btn.btn-success {
     color: #add8e6 !important;
     background: #fff;
     text-align: center;
-    width: 75px;
-    height: 75px;
-    border: 10px solid #add8e6 !important;
+    width: 60px;
+    height: 60px;
+    border: 8px solid #add8e6 !important;
     border-radius: 50%;
     box-shadow: 0 3px 16px 0 rgba(56,125,255,.5);
     transform: translateY(-50%);
@@ -2042,7 +2042,7 @@ a.btn.btn-success {
 }
 
 .main-timeline .timeline-icon img {
-    width: 70px;
+    width: 60px;
     border: 5px solid #fff;
     position: absolute;
     left: 0;
@@ -2178,7 +2178,7 @@ a.btn.btn-success {
     position: absolute;
     -webkit-transform: scale(.7);
     transform: scale(.7);
-    right: 40px;
+    right: 20px;
     z-index: 99;
     margin-top: -10px;
     border-radius: 50%;
@@ -2194,7 +2194,7 @@ a.btn.btn-success {
 .timeline-content .heartbeat {
     position: absolute;
     top: 10px;
-    right: 37px;
+    right: 17px;
     height: 40px;
     width: 40px;
     z-index: 10;

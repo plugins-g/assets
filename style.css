@@ -2074,7 +2074,7 @@ footer.page-footer {
 .main-timeline .timeline-content {
   color: #999;
   background: #fff;
-  padding: 25px 0px 25px 70px;
+  padding: 25px 0px 25px 60px;
   box-shadow: 6px 2px 22px -9px #bbcbd8;
   display: block;
   position: relative;
@@ -2119,9 +2119,9 @@ footer.page-footer {
   font-size: 35px;
   text-align: center;
   line-height: 64px;
-  width: 75px;
-  height: 75px;
-  border: 10px solid #add8e6 !important;
+  width: 60px;
+  height: 60px;
+  border: 8px solid #add8e6 !important;
   border-radius: 50%;
   box-shadow: 0 3px 16px 0 rgba(56,125,255,.5);
   transform: translateY(-50%);
@@ -2134,7 +2134,7 @@ footer.page-footer {
 }
 
 .main-timeline .timeline-icon img {
-    width: 70px;
+    width: 60px;
     border: 5px solid #fff;
     position: absolute;
     right: 0;
@@ -2282,7 +2282,7 @@ footer.page-footer {
 .timeline-content .badge-counter {
   position: absolute;
   transform: scale(.7);
-  left: 35px;
+  left: 20px;
   z-index: 99;
   margin-top: -10px;
   border-radius: 50%;
@@ -2299,7 +2299,7 @@ footer.page-footer {
 .timeline-content .heartbeat {
   position: absolute;
   top: 10px;
-  left: 32px;
+  left: 17px;
   height: 40px;
   width: 40px;
   z-index: 10;
