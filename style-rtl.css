@@ -2007,10 +2007,12 @@ a.btn.btn-success {
     right: 0;
     z-index: -1;
 }
+
 .main-timeline .timeline-content:after{
     left: auto;
     right: 0;
 }
+
 .main-timeline .timeline-year{
     color: #fff;
     font-size: 30px;
