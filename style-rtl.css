@@ -2056,7 +2056,7 @@ a.btn.btn-success {
 .main-timeline .inner-content:after{
     content: '';
     background-color: #add8e6 !important;
-    width: 25px;
+    width: 20px;
     border-radius: 10px 0 0 10px;
     position: absolute;
     right: 0;
