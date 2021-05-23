@@ -994,6 +994,21 @@ i.fas.fa-fingerprint.finger-red {
     cursor: pointer
 }
 
+i.fas.fa-share,
+i.fas.fa-reply {
+    text-align: center;
+    color: #fff !important;
+    background-color: #ff0101;
+    background: -webkit-linear-gradient(top, #f88, #c80000);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    font-size: 20px;
+    cursor: pointer;
+}
+
 .table-responsive {
     display: block;
     width: 100%;
