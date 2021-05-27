@@ -1008,6 +1008,20 @@ i.fas.fa-reply {
     font-size: 20px;
     cursor: pointer;
 }
+i.fas.fa-vial
+{
+    text-align: center;
+    color: #fff !important;
+    background-color: #4dc247;
+    background: -webkit-linear-gradient(top, #2ebf28, #45a940);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 31px !important;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    font-size: 20px;
+    cursor: pointer;
+}
 
 .table-responsive {
     display: block;
@@ -1604,12 +1618,19 @@ th.k-header span.k-link {
 }
 
 .k-grid-content td img {
-    width: 100%
+    width: 75%
 }
 
 .k-grid td {
     padding: .4em .6em !important
 }
+
+.k-grid tr.k-state-selected
+{
+    background-color: #daebff !important;
+    color: #008000  !important;
+}
+/*============================*/
 
 .btn-success {
     border-color: none !important
