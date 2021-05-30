@@ -1016,7 +1016,7 @@ i.fas.fa-vial {
     font-size: 20px;
     cursor: pointer;
 }
-
+/*=============================*/
 .table-responsive {
     display: block;
     width: 100%;
@@ -2582,7 +2582,7 @@ footer.page-footer {
     background-color: var(--maincolor) !important;
     background: -webkit-linear-gradient(top, var(--mainbackground), var(--maincolor));
     color: #fff;
-    padding: 17px 18px;
+    padding: 19px 18px;
     position: absolute;
     right: 0
 }
