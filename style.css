@@ -1012,7 +1012,6 @@ i.fas.fa-fingerprint.finger-red {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
     font-size: 20px;
     cursor: pointer;
-
 }
 
 .fas.fa-briefcase-medical {
@@ -1980,8 +1979,8 @@ footer.page-footer {
 .nav-item .nav-link .badge-counter,
 .topbar .nav-item .nav-link .badge-counter {
     position: absolute;
-    -webkit-transform: scale(.7);
-    transform: scale(.7);
+    -webkit-transform: scale(.6);
+    transform: scale(.6);
     right: 0px;
     margin-top: -10px;
     border-radius: 50%;
