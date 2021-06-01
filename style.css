@@ -308,8 +308,8 @@ ul.stepper li.completed a .white-skin .circle {
 
 .table .svg-icon
 {
-    width: 30px;
-    max-width: 30px;
+    width: 35px;
+    max-width: 35px;
     cursor: pointer
 }
 
@@ -2506,8 +2506,8 @@ footer.page-footer {
 
 table.table td,
 table.table th {
-    padding-top: 15px;
-    padding-bottom: 15px
+    padding-top: 5px;
+    padding-bottom: 5px
 }
 
 table.table td p {

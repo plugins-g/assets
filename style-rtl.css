@@ -227,8 +227,8 @@ ul.stepper li.completed a .white-skin .circle {
 
 .table .svg-icon
 {
-    width: 30px;
-    max-width: 30px;
+    width: 35px;
+    max-width: 35px;
     cursor: pointer
 }
 /*================*/
@@ -3074,8 +3074,8 @@ img.rounded-circle {
 
 table.table td,
 table.table th {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 15px !important;
     font-weight: 600
 }
