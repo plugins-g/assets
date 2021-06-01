@@ -298,6 +298,21 @@ ul.stepper li.completed a .white-skin .circle {
     background-color: #191f28;
     background: -webkit-linear-gradient(top, #191f28, #191f28)
 }
+/*================*/
+.svg-icon
+{
+    width: 30px;
+    max-width: 30px;
+    cursor: pointer
+}
+
+.table .svg-icon
+{
+    width: 30px;
+    max-width: 30px;
+    cursor: pointer
+}
+
 
 /*--------------------------------------------------*/
 
