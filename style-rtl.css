@@ -231,6 +231,15 @@ ul.stepper li.completed a .white-skin .circle {
     max-width: 35px;
     cursor: pointer
 }
+
+.side-svg
+{
+    width: 35px;
+    max-width: 35px;
+    cursor: pointer
+}
+
+
 /*================*/
 
 i {
