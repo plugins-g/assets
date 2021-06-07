@@ -2111,6 +2111,10 @@ footer.page-footer {
     width: 2rem
 }
 
+.side-nav a {
+    padding-right: 15px !important;
+}
+
 @media (min-width:1440px) {
     .double-nav .button-collapse {
         display: block
