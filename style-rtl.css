@@ -2,10 +2,6 @@
 
 
 
-/*@font-face {
-    font-family: Cairo;
-    src: url(../fonts/Cairo-SemiBold.ttf) format('truetype'), url(../fonts/Cairo-Regular.ttf) format('truetype'), url(../fonts/Cairo-Light.ttf) format('truetype'), url(../fonts/Cairo-ExtraLight.ttf) format('truetype'), url(../fonts/Cairo-Bold.ttf) format('truetype'), url(../fonts/Cairo-Black.ttf) format('truetype')
-}*/
 
 :root {
     --maincolor: #2b4170;
@@ -5553,14 +5549,15 @@ ul.sui-treeview-list {
     padding: 5px 14px;
     border-radius: 5px;
     font-weight: 700;
-    font-size: 20px
+    font-size: 17px
 }
 
 .page-header.white-text {
     text-align: center;
     color: #fff !important;
     background-color: var(--maincolor) !important;
-    border-radius: 0;
+    font-size: 17px;
+    border-radius: 5px 5px 0 0;
 }
 
 .k-autocomplete.k-state-focused,
