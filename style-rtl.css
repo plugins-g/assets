@@ -1224,6 +1224,11 @@ input.select-dropdown.form-control {
     height: 1.2rem
 }
 
+.custom-control-label
+{
+     padding-top: 4px !important;
+}
+
 .custom-select {
     border: none !important;
     border-radius: 0 !important;
