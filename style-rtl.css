@@ -234,8 +234,16 @@ img.side-svg
     max-width: 30px;
     cursor: pointer
 }
+.menu-svg {
+    width: 25px;
+    margin-left: 10px;
+}
 
-
+    .sid-svg
+    {
+        width: 15px;
+        margin-right: 10px;
+    }
 /*================*/
 
 i {
@@ -2913,6 +2921,7 @@ img.rounded-circle {
     position: relative;
     background: #fff
 }
+
 
 /*======================*/
 

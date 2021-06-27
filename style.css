@@ -308,6 +308,15 @@ img.side-svg
     cursor: pointer
 }
 
+.menu-svg {
+    width: 25px;
+    margin-right: 10px;
+}
+    .sid-svg
+    {
+        width: 15px;
+        margin-right: 10px;
+    }
 /*--------------------------------------------------*/
 
 .aside-section .color-switcher {
