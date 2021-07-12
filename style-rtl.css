@@ -1810,6 +1810,17 @@ a.btn.btn-success {
     z-index: 9997
 }
 
+#dr-slide .dr-svg
+{
+     margin-right: 10px;
+     width: 30px;
+}
+
+#dr-slide .side-nav .collapsible a
+{
+    height: 40px !important;
+}
+
 #patients-slide {
     z-index: 99999;
     margin-top: 0 !important;
@@ -2931,7 +2942,7 @@ img.rounded-circle {
     background: #fff;
     border-radius: 5px 5px 0 0;
     padding: 5px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 10%), 0 2px 10px 0 rgb(0 0 0 / 10%);
     border-top: 3px solid var(--maincolor) !important
 }
 
@@ -2941,7 +2952,7 @@ img.rounded-circle {
     background: #fff;
     border-radius: 5px 5px 0 0;
     padding: 5px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 10%), 0 2px 10px 0 rgb(0 0 0 / 10%);
     border-top: 3px solid var(--maincolor) !important
 }
 
