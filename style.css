@@ -2882,7 +2882,7 @@ ul.nav.navbar-nav {
 
 .content {
     margin-top: 70px;
-    min-height: 75em
+    /*min-height: 75em*/
 }
 
 .white-skin .btn-secondary {

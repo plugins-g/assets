@@ -4858,7 +4858,7 @@ i.far.fa-hand-point-left.ml-2 {
 
 .content {
     margin-top: 70px !important;
-    min-height: 65em !important
+    /*min-height: 65em !important*/
 }
 
 .sidebar-wrapper {
@@ -4982,7 +4982,7 @@ textarea#DepositBankRemarks {
 @media (min-width:1400px) {
     .content {
         margin-top: 70px;
-        min-height: 75em
+        /*min-height: 75em*/
     }
 
     .login-form {
