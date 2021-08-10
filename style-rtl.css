@@ -2595,8 +2595,9 @@ table.table.table-hover.table-striped.table-bordered.dataTable.no-footer {
 footer.page-footer .footer-copyright {
     overflow: hidden;
     background-color: none !important;
-    background: 0 0 !important;
+    background: #fff !important;
     color: #000 !important;
+    z-index: -1;
 }
 
 footer.page-footer {
