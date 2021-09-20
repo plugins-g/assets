@@ -1,7 +1,48 @@
+/*!
+ * Bootstrap v4.2.1 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*!
+ * Material Design for Bootstrap 4
+ *   Version: MDB PRO 4.17.0
+ * 
+ *
+ *
+ *   Copyright: Material Design for Bootstrap
+ *   https://mdbootstrap.com/
+ * 
+ *   Read the license: https://mdbootstrap.com/general/license/
+ * 
+ *   Documentation: https://mdbootstrap.com/
+ */
+ /*!
+  *   Getting started: https://mdbootstrap.com/docs/jquery/getting-started/download/
+  * 
+  *   Tutorials: https://mdbootstrap.com/education/bootstrap/
+  * 
+  *   Templates: https://mdbootstrap.com/templates/
+  * 
+  *   Support: https://mdbootstrap.com/support/
+  * 
+  *   Contact: office@mdbootstrap.com
+  * 
+  *   Attribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js
+  */
+ 
+
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
 
-
-
+@font-face {
+    font-family: Cairo;
+    src: url(../fonts/Cairo-SemiBold.ttf) format('truetype'),
+         url(../fonts/Cairo-Regular.ttf) format('truetype'),
+         url(../fonts/Cairo-Light.ttf) format('truetype'), 
+         url(../fonts/Cairo-ExtraLight.ttf) format('truetype'),
+         url(../fonts/Cairo-Bold.ttf) format('truetype'),
+         url(../fonts/Cairo-Black.ttf) format('truetype')
+}
 
 :root {
     --maincolor: #2b4170;
@@ -228,6 +269,11 @@ ul.stepper li.completed a .white-skin .circle {
     cursor: pointer
 }
 
+.svg-icon-btn {
+    max-width: 40px;
+}
+
+
 img.side-svg
 {
     width: 30px;
@@ -251,11 +297,17 @@ i {
 }
 
 .btn {
-    font-weight: 700
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
 }
 
 button.btn i {
     padding: 0px 5px;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
 }
 
 button.dt-button {
@@ -1811,6 +1863,12 @@ a.btn.btn-success {
 }
 
 #dr-slide .dr-svg
+{
+     margin-left: 10px;
+     width: 30px;
+}
+
+#dr-slide img.dr-svg
 {
      margin-left: 10px;
      width: 30px;
@@ -4858,8 +4916,8 @@ i.far.fa-hand-point-left.ml-2 {
 }
 
 .content {
-    margin-top: 70px !important;
-    /*min-height: 65em !important*/
+    margin-top: 65px !important;
+    margin-bottom: 100px !important;
 }
 
 .sidebar-wrapper {
@@ -5619,6 +5677,17 @@ span.k-picker-wrap.k-state-default {
     text-indent: 0 !important
 }
 
+.k-input, 
+.k-multiselect-wrap,
+.k-textbox > input, 
+ input.k-textbox,
+ input.k-textbox:hover,
+ textarea.k-textbox, 
+ textarea.k-textbox:hover {
+    background-color: #edf3fa !important;
+    color: #444;
+}
+
 .k-widget.k-multiselect {
     padding: 0;
 }
@@ -6078,6 +6147,50 @@ option:hover {
     }
 }
 
+
+.time-nav span.nav-link {
+    display: -ms-flexbox;
+    display: inline-block;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    background: #2b4170;
+    width: 100px;
+    margin: 1px;
+    color: #fff;
+    height: 30px;
+    text-align: center;
+    line-height: 15px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 0%), 0 2px 10px 0 rgb(0 0 0 / 6%);
+}
+
+
+.time-nav .nav li.nav-link {
+    background: #f1f5f7;
+    padding: 8px 10px;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0), 0 2px 10px 0 rgba(0, 0, 0, 0.06);
+    transition: all 0.5s ease-in-out;
+}
+
+    .time-nav .nav li.nav-link:hover {
+        color: #fff;
+        border: none;
+        border: 1px solid var(--maincolor);
+        background-color: var(--maincolor) !important;
+        background: -webkit-linear-gradient(top,var(--mainbackground),var(--maincolor));
+    }
+    .main-timeline .timeline {
+        padding: 0;
+        margin: 0 5px 10px 0;
+        position: relative;
+        z-index: 1;
+    }
+    
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {}
